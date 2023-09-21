@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bresenham's algorithm</h1>
+    
+    <canvas id="canvas" width="500" height="500"></canvas>
+    
+    <h2>Draw a Line</h2>
+    <label for="x1">X1:</label>
+    <input type="number" id="x1">
+    <label for="y1">Y1:</label>
+    <input type="number" id="y1">
+    <label for="x2">X2:</label>
+    <input type="number" id="x2">
+    <label for="y2">Y2:</label>
+    <input type="number" id="y2">
+    <button onclick="drawLine()">Draw Line</button>
+    
+    <h2>Draw a Circle</h2>
+    <label for="centerX">Center X:</label>
+    <input type="number" id="centerX">
+    <label for="centerY">Center Y:</label>
+    <input type="number" id="centerY">
+    <label for="radius">Radius:</label>
+    <input type="number" id="radius">
+    <button onclick="drawCircle()">Draw Circle</button>
+    <button onclick="clearCanvas()">Clear Canvas</button>
+
+    <h2>Draw a Elipse</h2>
+    <label for="centerXX">Center X:</label>
+    <input type="number" id="centerXX">
+    <label for="centerYY">Center Y:</label>
+    <input type="number" id="centerYY">
+    <label for="a">A:</label>
+    <input type="number" id="a">
+    <label for="b">B:</label>
+    <input type="number" id="b">
+    <button onclick="drawEllipse()">Draw Elipse</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
